@@ -418,7 +418,8 @@ ul {
     .featuresSection {
         width: 100%;
         background-color:rgb(247, 185, 0) ;
-         background-color: linear-gradient(to bottom,rgb(247, 185, 0),white);
+         /* background: linear-gradient(to bottom,rgb(247, 185, 0),white); */
+         background: linear-gradient(180deg, rgb(247, 185, 0) 6.96%, rgb(255, 201, 37) 40.17%, #d2d2d2 73.39%);
          align-items: flex-start;
     }
 
