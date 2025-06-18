@@ -1,15 +1,31 @@
 /* Animate background gradient */
 @keyframes gradientBG {
   0% {
-    background-position: 0% 50%;
+    background-position: 100% 0%;
   }
-  50% {
-    background-position: 100% 50%;
+  14% {
+    background-position: 85% 15%;
+  }
+  28% {
+    background-position: 70% 30%;
+  }
+  42% {
+    background-position: 50% 50%;
+  }
+  57% {
+    background-position: 30% 70%;
+  }
+  71% {
+    background-position: 15% 85%;
+  }
+  85% {
+    background-position: 0% 100%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 100% 0%;
   }
 }
+
 
 /* Apply to full screen body */
 body {
